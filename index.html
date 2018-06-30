@@ -305,18 +305,23 @@ input[type=submit]:hover {
 </style>
 <h3>Any Suggestions welcome</h3>
 <div class="container">
-  <form method="POST" action="https://formspree.io/capturesmk@gmail.com" enctype="text/plain" id="contactForm" name="contactForm">
-    <label for="contactName">Name<span class="required">*</span></label>
-    <input type="text" id="contactName" name="contactName" placeholder="Name">
+ <form action="mailto:capturesmk@gmail.com" method="post" enctype="text/plain">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="First Name" placeholder="First Name">
 
-    <label for="contactEmail">Email ID<span class="required">*</span></label>
-    <input type="text" id="contactEmail" name="contactEmail" placeholder="Email ID">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="Last Name" placeholder="Last Name">
 
-    <label for="contactMessage">Subject<span class="required">*</span></label>
-    <textarea id="contactMessage" name="contactMessage" placeholder="Subject" style="height:200px"></textarea>
+    <label for="phno">Phone Number</label>
+    <input type="number" id="phno" name="Phone Number" placeholder="Phone Number">
 
-    <input type="submit" value="Submit">
-  </form>
+    <label for="email">Email ID</label>
+    <input type="email" id="email" name="Email" placeholder="Email ID">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Subject" style="height:200px"></textarea>
+     <input type="submit" value="Submit">
+    </form>
 </div>
 <div class="col-md-4 col-sm-12 mt-5"> 
               <div class="contact-cont2"> 
