@@ -1,3 +1,3 @@
-# capturemathan.github.io
-It's always better for a developer to have a website of his own to showcase his caliber and potentialities for the betterment of the common society.
+# My Portfolio Website
+Have some time ? Let's scroll down to discover my potential and capabilities </br>
 [My Portfolio Website](https://capturemathan.github.io/)
