@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar'
+import Welcome from './components/Welcome'
 
 function App() {
-  return (
-    <div className="App">
-      <span className="tag">Hello</span>
-    </div>
+  return (<>
+    <Navbar/>
+    <Welcome/>
+    </>
   );
 }
 
