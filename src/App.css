@@ -3,6 +3,25 @@
     font-size: 2rem;
     margin-bottom: 4%;
 }
+#hworld::first-letter{
+    color: #4e4187;
+    font-size: 200%;
+}
+.hero-head::first-letter{
+    color: #4e4187;
+    font-size: 200%;
+}
+.hero-head{
+    font-size: 2.0rem;
+    font-family: 'Pacifico';
+}
+.calendar{
+    font-family: 'Poppins';
+}
+#LI-profile-badge{
+    font-family: 'Poppins';
+}
+
 #myname{
     font-family: 'Poppins';
     font-size: 2rem;
@@ -31,4 +50,16 @@
     color: black;
     padding: 1%;
     font-size: 1.2rem;
+}
+.step-title{
+    font-family: 'Poppins';
+}
+.step-desc::first-letter{
+    color: #3083dc;
+    font-size: 200%;
+}
+.step-desc{
+    font-family: 'Quicksand';
+    color: black;
+    font-weight: bolder;
 }

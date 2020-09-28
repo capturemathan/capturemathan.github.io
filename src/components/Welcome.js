@@ -8,7 +8,7 @@ class Welcome extends React.Component{
     }
     render(){
         return (
-            <section className="hero is-fullheight-with-navbar" id="intro">
+            <section className="hero is-fullheight" id="intro">
                 <div className="hero-body">
                     <div className="columns is-vcentered">
                         <div className="column is-6">
