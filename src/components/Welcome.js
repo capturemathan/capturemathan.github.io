@@ -1,5 +1,6 @@
-import React from 'react'
-import WOW from 'wowjs'
+import React from 'react';
+import WOW from 'wowjs';
+import {Link} from 'react-scroll';
 
 class Welcome extends React.Component{
     componentDidMount()
@@ -26,8 +27,8 @@ class Welcome extends React.Component{
                                 <span className="tag is-dark">Android</span>
                             </div>
                             <div className="buttons is-right wow animate__animated animate__fadeInDown" data-wow-delay=".5s">
-                                <button className="button is-rounded" id="abtbtn">Discover Mathan</button>
-                                <button className="button is-rounded" id="cvbtn">Download his CV</button>
+                                <button className="button is-rounded" id="abtbtn"><Link className="link" to="cardpg" smooth={true}>Discover Mathan</Link></button>
+                                <button className="button is-rounded" id="cvbtn"><a className="link" target="_blank" href="https://bit.ly/mathanresume" rel="noopener noreferrer">Download his CV</a></button>
                             </div>
                         </div>
                     </div>
