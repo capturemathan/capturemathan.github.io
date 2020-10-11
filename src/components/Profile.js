@@ -2,7 +2,7 @@ import React from 'react';
 import GitHubCalendar from 'github-calendar';
 import WOW from 'wowjs'
 
-class Cardcast extends React.Component{
+class Profile extends React.Component{
     componentDidMount(){
         GitHubCalendar(".calendar", "capturemathan", { responsive: true });
         new WOW.WOW().init();
@@ -59,4 +59,4 @@ class Cardcast extends React.Component{
     }
 }
 
-export default Cardcast;
+export default Profile;

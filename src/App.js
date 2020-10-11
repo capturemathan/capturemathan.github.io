@@ -3,13 +3,15 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
-import Cardcast from './components/Cardcast';
+import Profile from './components/Profile';
+import Project from './components/Project';
 
 function App() {
   return (<>
     <Navbar/>
     <Welcome/>
-    <Cardcast/>
+    <Profile/>
+    <Project/>
     </>
   );
 }

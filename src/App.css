@@ -67,3 +67,63 @@
 .link{
     color: white;
 }
+
+#projectpg{
+    height: 100vh;
+}
+
+.projects{
+    margin-top: 1%;
+}
+
+.subtitle{
+    font-family: 'Quicksand';
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.randombtn{
+    font-family: 'Poppins';
+    background-color: #4e4187;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.proj-title{
+    font-family: 'Poppins';
+    color: #3083dc;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+}
+
+.proj-desc{
+    font-family: 'Poppins';
+    color: black;
+    font-size: 1.1rem;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.myquote{
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+}
+
+.qt-title{
+    font-family: 'Poppins';
+    color: #3083dc;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.qt-desc{
+    font-family: 'Pacifico';
+    font-size: 1.5rem;
+    padding-left: 3%;
+    padding-right: 3%;
+}
