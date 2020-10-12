@@ -26,7 +26,7 @@ class Project extends Component {
                             <div className="columns is-vcentered">
                                 <div className="column is-3">
                                     <figure className="image is-128x128 wow animate__animated animate__bounce">
-                                        <img className="is-rounded proj-logo" alt="proj-logo" src="logo_anokha.png"/>
+                                        <img className="is-rounded proj-logo" alt="proj-logo" src="logos/anokha.png"/>
                                     </figure>
                                 </div>
                                 <div className="column">

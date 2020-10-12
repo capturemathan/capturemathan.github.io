@@ -13,7 +13,7 @@ class Welcome extends React.Component{
                 <div className="hero-body">
                     <div className="columns is-vcentered">
                         <div className="column is-6">
-                            <img src='aboutme.png' alt="portfolio-img"></img>
+                            <img src='/images/aboutme.png' alt="portfolio-img"></img>
                         </div>
                         <div className="column is-6 wow animate__animated animate__fadeInRight" id="colright">
                             <div id="hworld" className="has-text-right">
