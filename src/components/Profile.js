@@ -45,12 +45,12 @@ class Profile extends React.Component{
                             </div>
                         </li>
                     </ul>
-                    <div className="hero-body wow animate__animated animate__fadeInDown">
+                    <div className="hero-body">
                         <div className="columns">
-                            <div id="LI-profile-badge" className="LI-profile-badge column is-narrow is-offset-1"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="mathana-kumar-s-87b42714a"><a className="LI-simple-link" href='https://in.linkedin.com/in/mathana-kumar-s-87b42714a?trk=profile-badge'>Mathana Kumar S</a>
+                            <div id="LI-profile-badge" className="LI-profile-badge column is-narrow is-offset-1 wow animate__animated animate__slideInLeft"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="mathana-kumar-s-87b42714a"><a className="LI-simple-link" href='https://in.linkedin.com/in/mathana-kumar-s-87b42714a?trk=profile-badge'>Mathana Kumar S</a>
                             </div>
                             
-                            <div className="calendar column is-narrow">
+                            <div className="calendar column is-narrow  wow animate__animated animate__slideInRight">
                             </div>
                         </div>
                     </div>
