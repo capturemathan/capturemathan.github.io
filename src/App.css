@@ -1,20 +1,48 @@
-#hworld{
-    font-family: 'Pacifico';
+/* WELCOME PAGE */
+
+.dash {
+    position: relative;
+    font-family: Poppins;
     font-size: 2rem;
-    margin-bottom: 4%;
+    line-height: 1.2em;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 5%;
 }
-#hworld::first-letter{
+.dash:before {
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+    height: 0;
+    width: 10%;
+    content: '';
+    border-top: 5px solid #3083dc;
+}
+
+.label{
+    font-family: Poppins;
     color: #4e4187;
-    font-size: 200%;
+    font-weight: bold;
 }
-.hero-head::first-letter{
-    color: #4e4187;
-    font-size: 200%;
+
+.input,.textarea{
+    font-family: Quicksand;
+    font-weight: bolder;
 }
-.hero-head{
-    font-size: 2.0rem;
-    font-family: 'Pacifico';
+
+.socialicon{
+    margin-right: 1%;
 }
+
+#cvbtn{
+    font-family: 'Poppins';
+    background-color: #4e4187;
+    color: white;
+    width: 50%;
+}
+
+/* WELCOME PAGE ENDS*/
+
 .calendar{
     font-family: 'Poppins';
 }
@@ -33,18 +61,7 @@
 .tags{
     font-family: 'Poppins';
 }
-#abtbtn{
-    margin-top: 2%;
-    font-family: 'Poppins';
-    background-color: #3083dc;
-    color: white;
-}
-#cvbtn{
-    margin-top: 2%;
-    font-family: 'Poppins';
-    background-color: #4e4187;
-    color: white;
-}
+
 .navbar-brand{
     font-family: 'Pacifico';
     color: black;

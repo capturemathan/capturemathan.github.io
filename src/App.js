@@ -8,10 +8,7 @@ import Project from './components/Project';
 
 function App() {
   return (<>
-    <Navbar/>
     <Welcome/>
-    <Profile/>
-    <Project/>
     </>
   );
 }
