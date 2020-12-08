@@ -9,6 +9,7 @@ import Project from './components/Project';
 function App() {
   return (<>
     <Welcome/>
+    <Profile/>
     </>
   );
 }

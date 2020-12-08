@@ -1,5 +1,13 @@
-/* WELCOME PAGE */
+/* NAVBAR */
+.navbar-brand{
+    font-family: 'Pacifico';
+    color: black;
+    padding: 1%;
+    font-size: 1.2rem;
+}
+/* NAVBAR ENDS */
 
+/* WELCOME PAGE */
 .dash {
     position: relative;
     font-family: Poppins;
@@ -40,40 +48,33 @@
     color: white;
     width: 50%;
 }
-
 /* WELCOME PAGE ENDS*/
 
-.calendar{
-    font-family: 'Poppins';
-}
-#LI-profile-badge{
-    font-family: 'Poppins';
-}
-
-#myname{
-    font-family: 'Poppins';
+/* PROFILE PAGE */
+.herohead{
+    position: relative;
+    font-family: Poppins;
     font-size: 2rem;
+    line-height: 1.2em;
     color: black;
-}
-#colright{
-    padding-right: 3%;
-}
-.tags{
-    font-family: 'Poppins';
+    font-weight: bolder;
+    margin: 3%;
 }
 
-.navbar-brand{
-    font-family: 'Pacifico';
-    color: black;
-    padding: 1%;
-    font-size: 1.2rem;
+.herohead:before {
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+    height: 0;
+    width: 5%;
+    content: '';
+    border-top: 5px solid #3083dc;
 }
+
 .step-title{
     font-family: 'Poppins';
-}
-.step-desc::first-letter{
-    color: #3083dc;
-    font-size: 200%;
+    color:black;
+    font-weight: bolder;
 }
 .step-desc{
     font-family: 'Quicksand';
@@ -81,8 +82,51 @@
     font-weight: bolder;
 }
 
-.link{
-    color: white;
+.skill-bars {
+	list-style: none;
+}
+.skill-bars li {
+    height: 0.3rem;
+	background: black;
+    margin: 4rem;
+	position: relative;
+}
+.skill-bars li strong {
+	position: absolute;
+	left: 0;
+    top: -2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+	font-family: Poppins;
+	color: black;
+}
+.skill-bars li .progress span {
+	position: absolute;
+	right: 0;
+	top: -2.3rem;
+	display: block;
+    font-family: Poppins;
+    font-size: 0.8rem;
+	color: white;
+	line-height: 1;
+	background: #4e4187;
+	padding: .6rem .6rem;
+	border-radius: 3px;
+}
+.skill-bars li .progress span::after {
+	position: absolute;
+	left: 50%;
+	bottom: -5px;
+	margin-left: -5px;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-top: 5px solid #4e4187;
+	content: "";
+}
+/* PROFILE PAGE ENDS*/
+
+.tags{
+    font-family: 'Poppins';
 }
 
 #projectpg{
