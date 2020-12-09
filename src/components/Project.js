@@ -36,29 +36,15 @@ class Project extends Component {
     render() {
         return (
             <section id="projectpg">
-                <div className="hero-head has-text-centered">Peek a Boo</div>
-                    <div className="columns is-vcentered projects">
-                        <div className="column is-3 has-text-centered">
-                            <div className="subtitle">
-                                Project
-                            </div>
-                            <button className="button is-rounded randombtn" onClick={()=>this.getProject()}>
-                                <span className="icon is-small">
-                                    <i className="fas fa-random"></i>
-                                </span>
-                                <span>Randomize</span>
-                            </button>
-                        </div>
-                        <div className="column is-8">
-                            <div className="columns is-vcentered">
-                                <div className="column is-3">
-                                    <figure className="image is-128x128 wow animate__animated animate__bounce">
-                                        <img className="is-rounded proj-logo" alt="proj-logo" src={this.state.projImg}/>
-                                    </figure>
-                                </div>
-                                <div className="column">
-                                    <div className="box">
-                                        <div className="proj-title has-text-centered">
+                <div className="herohead">Peek a Boo</div>
+                    <div className="columns is-vcentered">
+                        <div className="column is-4 is-offset-1">
+                        <div className="subtitle has-text-centered">Projects</div>
+                        <div className="box">
+                        <figure className="image container is-128x128 wow animate__animated animate__bounce">
+                            <img className="is-rounded proj-logo" alt="proj-logo" src={this.state.projImg}/>
+                        </figure>
+                        <div className="proj-title has-text-centered">
                                             {this.state.projTitle}
                                         </div>
                                         <div className="proj-desc">
@@ -66,31 +52,23 @@ class Project extends Component {
                                         </div>
                                         <div className="tags are-medium is-right proj-tags">
                                             {this.state.projTags.map((elem)=>
-                                            <span className="tag is-success">
+                                            <span className="tag is-black">
                                                 {elem}
                                             </span>
                                             )}
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="columns is-vcentered quotes">
-                        <div className="column is-3 has-text-centered">
-                            <div className="subtitle">
-                                Quote
-                            </div>
-                            <button className="button is-rounded randombtn" onClick={()=>this.getQuote()}>
+                                        <button className="button is-rounded randombtn is-centered" onClick={()=>this.getProject()}>
                                 <span className="icon is-small">
                                     <i className="fas fa-random"></i>
                                 </span>
                                 <span>Randomize</span>
                             </button>
                         </div>
-                        <div className="column is-8">
-                            <div className="box">
-                                <div className="myquote">
+                        </div>
+                        <div className="column is-3">
+                        <div className="subtitle has-text-centered">Quotes</div>
+                        <div className="box">
+                        <div className="myquote">
                                     <div className="qt-title has-text-centered">
                                         {this.state.qtTitle}
                                     </div>
@@ -98,10 +76,16 @@ class Project extends Component {
                                         {this.state.qtDesc}
                                     </div>
                                 </div>
-                                <div className="tags are-medium is-right proj-tags">
-                                    <span className="tag is-warning">Mathan Scribbles</span>
-                                </div>
-                            </div>
+                                <button className="button is-rounded randombtn" onClick={()=>this.getQuote()}>
+                                <span className="icon is-small">
+                                    <i className="fas fa-random"></i>
+                                </span>
+                                <span>Randomize</span>
+                            </button>
+                        </div>
+                        </div>
+                        <div className="column">
+                            <img src="/images/projects.png" alt="projectimg"></img>
                         </div>
                     </div>
             </section>

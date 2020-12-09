@@ -125,6 +125,7 @@
 }
 /* PROFILE PAGE ENDS*/
 
+/* PROJECT PAGE */
 .tags{
     font-family: 'Poppins';
 }
@@ -132,14 +133,11 @@
 #projectpg{
     height: 100vh;
 }
-
-.projects{
-    margin-top: 1%;
-}
-
 .subtitle{
-    font-family: 'Quicksand';
-    color: black;
+    font-family: Poppins;
+    color: #3083dc;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
     font-weight: bolder;
     font-size: 1.5rem;
 }
@@ -148,25 +146,23 @@
     font-family: 'Poppins';
     background-color: #4e4187;
     color: white;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 .proj-title{
     font-family: 'Poppins';
-    color: #3083dc;
+    color: #4e4187;
     font-weight: bolder;
     font-size: 1.5rem;
-    margin-bottom: 1%;
+    margin: 2%;
 }
 
 .proj-desc{
     font-family: 'Poppins';
-    color: black;
+    font-weight: bold;
     font-size: 1.1rem;
-    margin-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .myquote{
@@ -176,15 +172,18 @@
 
 .qt-title{
     font-family: 'Poppins';
-    color: #3083dc;
+    color: #4e4187;
     margin-bottom: 1%;
     font-size: 1.5rem;
     font-weight: bolder;
 }
 
 .qt-desc{
-    font-family: 'Pacifico';
-    font-size: 1.5rem;
-    padding-left: 3%;
-    padding-right: 3%;
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
 }
+/* PROJECT PAGE ENDS*/
