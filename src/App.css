@@ -1,189 +1,190 @@
 /* NAVBAR */
-.navbar-brand{
-    font-family: 'Pacifico';
-    color: black;
-    padding: 1%;
-    font-size: 1.2rem;
+.navbar-brand {
+  font-family: "Pacifico";
+  color: black;
+  padding: 1%;
+  font-size: 1.2rem;
 }
 /* NAVBAR ENDS */
 
 /* WELCOME PAGE */
 .dash {
-    position: relative;
-    font-family: Poppins;
-    font-size: 2rem;
-    line-height: 1.2em;
-    color: black;
-    font-weight: bolder;
-    margin-bottom: 5%;
+  position: relative;
+  font-family: Poppins;
+  font-size: 2rem;
+  line-height: 1.2em;
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 5%;
 }
 .dash:before {
-    position: absolute;
-    left: 0;
-    top: 1.2em;
-    height: 0;
-    width: 10%;
-    content: '';
-    border-top: 5px solid #3083dc;
+  position: absolute;
+  left: 0;
+  top: 1.2em;
+  height: 0;
+  width: 10%;
+  content: "";
+  border-top: 5px solid #3083dc;
 }
 
-.label{
-    font-family: Poppins;
-    color: #4e4187;
-    font-weight: bold;
+.label {
+  font-family: Poppins;
+  color: #4e4187;
+  font-weight: bold;
 }
 
-.input,.textarea{
-    font-family: Quicksand;
-    font-weight: bolder;
+.input,
+.textarea {
+  font-family: Quicksand;
+  font-weight: bolder;
 }
 
-.socialicon{
-    margin-right: 1%;
+.socialicon {
+  margin-right: 1%;
 }
 
-#cvbtn{
-    font-family: 'Poppins';
-    background-color: #4e4187;
-    color: white;
-    width: 50%;
+#cvbtn {
+  font-family: "Poppins";
+  background-color: #4e4187;
+  color: white;
+  width: 50%;
 }
 /* WELCOME PAGE ENDS*/
 
 /* PROFILE PAGE */
-.herohead{
-    position: relative;
-    font-family: Poppins;
-    font-size: 2rem;
-    line-height: 1.2em;
-    color: black;
-    font-weight: bolder;
-    margin: 3%;
+.herohead {
+  position: relative;
+  font-family: Poppins;
+  font-size: 2rem;
+  line-height: 1.2em;
+  color: black;
+  font-weight: bolder;
+  margin: 3%;
 }
 
 .herohead:before {
-    position: absolute;
-    left: 0;
-    top: 1.2em;
-    height: 0;
-    width: 5%;
-    content: '';
-    border-top: 5px solid #3083dc;
+  position: absolute;
+  left: 0;
+  top: 1.2em;
+  height: 0;
+  width: 5%;
+  content: "";
+  border-top: 5px solid #3083dc;
 }
 
-.step-title{
-    font-family: 'Poppins';
-    color:black;
-    font-weight: bolder;
+.step-title {
+  font-family: "Poppins";
+  color: black;
+  font-weight: bolder;
 }
-.step-desc{
-    font-family: 'Quicksand';
-    color: black;
-    font-weight: bolder;
+.step-desc {
+  font-family: "Quicksand";
+  color: black;
+  font-weight: bolder;
 }
 
 .skill-bars {
-	list-style: none;
+  list-style: none;
 }
 .skill-bars li {
-    height: 0.3rem;
-	background: black;
-    margin: 4rem;
-	position: relative;
+  height: 0.3rem;
+  background: black;
+  margin: 4rem;
+  position: relative;
 }
 .skill-bars li strong {
-	position: absolute;
-	left: 0;
-    top: -2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-	font-family: Poppins;
-	color: black;
+  position: absolute;
+  left: 0;
+  top: -2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-family: Poppins;
+  color: black;
 }
 .skill-bars li .progress span {
-	position: absolute;
-	right: 0;
-	top: -2.3rem;
-	display: block;
-    font-family: Poppins;
-    font-size: 0.8rem;
-	color: white;
-	line-height: 1;
-	background: #4e4187;
-	padding: .6rem .6rem;
-	border-radius: 3px;
+  position: absolute;
+  right: 0;
+  top: -2.3rem;
+  display: block;
+  font-family: Poppins;
+  font-size: 0.8rem;
+  color: white;
+  line-height: 1;
+  background: #4e4187;
+  padding: 0.6rem 0.6rem;
+  border-radius: 3px;
 }
 .skill-bars li .progress span::after {
-	position: absolute;
-	left: 50%;
-	bottom: -5px;
-	margin-left: -5px;
-	border-right: 5px solid transparent;
-	border-left: 5px solid transparent;
-	border-top: 5px solid #4e4187;
-	content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  margin-left: -5px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 5px solid #4e4187;
+  content: "";
 }
 /* PROFILE PAGE ENDS*/
 
 /* PROJECT PAGE */
-.tags{
-    font-family: 'Poppins';
+.tags {
+  font-family: "Poppins";
 }
 
-#projectpg{
-    height: 100vh;
+#projectpg {
+  height: 100vh;
 }
-.subtitle{
-    font-family: Poppins;
-    color: #3083dc;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 1.5rem;
-}
-
-.randombtn{
-    font-family: 'Poppins';
-    background-color: #4e4187;
-    color: white;
+.subtitle {
+  font-family: Poppins;
+  color: #3083dc;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 
-.proj-title{
-    font-family: 'Poppins';
-    color: #4e4187;
-    font-weight: bolder;
-    font-size: 1.5rem;
-    margin: 2%;
+.randombtn {
+  font-family: "Poppins";
+  background-color: #4e4187;
+  color: white;
 }
 
-.proj-desc{
-    font-family: 'Poppins';
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
+.proj-title {
+  font-family: "Poppins";
+  color: #4e4187;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 2%;
 }
 
-.myquote{
-    font-size: 1.5rem;
-    margin-bottom: 1%;
+.proj-desc {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.qt-title{
-    font-family: 'Poppins';
-    color: #4e4187;
-    margin-bottom: 1%;
-    font-size: 1.5rem;
-    font-weight: bolder;
+.myquote {
+  font-size: 1.5rem;
+  margin-bottom: 1%;
 }
 
-.qt-desc{
-    font-family: 'Poppins';
-    font-size: 1.1rem;
-    margin-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: bold;
+.qt-title {
+  font-family: "Poppins";
+  color: #4e4187;
+  margin-bottom: 1%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.qt-desc {
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
 }
 /* PROJECT PAGE ENDS*/
