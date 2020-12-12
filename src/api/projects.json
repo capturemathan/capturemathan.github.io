@@ -1,22 +1,22 @@
 {
-    "projects":[
-        {
-            "proj-title": "Faculty Dashboard (SWE)",
-            "proj-desc": "Developed REST API’s with JWT auth, Admin & Chairperson portal using BULMA and PHP, an android app that interacts with custom-built API’s and serves as a dashboard for faculties.",
-            "proj-tags":["Android","Web"],
-            "proj-img":"logos/fdash.png"
-        },
-        {
-            "proj-title": "Anokha (Techfest of Amrita University)",
-            "proj-desc":"Developed an elegant and secure android app for the techfest using JWT that facilitates registration of events, workshops with 10k+ Downloads, and 4.2 Stars in Play Store.",
-            "proj-tags":["Android"],
-            "proj-img":"logos/anokha.png"
-        },
-        {
-            "proj-title": "Gitcardjs (NPM Package)",
-            "proj-desc":"Template cards to showcase GitHub proficiency on your personal blogs and websites.",
-            "proj-tags":["Web","NPM"],
-            "proj-img":"logos/gitcard.png"   
-        }
-    ]
+  "projects": [
+    {
+      "proj-title": "Faculty Dashboard (SWE)",
+      "proj-desc": "Developed REST API’s with JWT auth, Admin & Chairperson portal using BULMA and PHP, an android app that interacts with custom-built API’s and serves as a dashboard for faculties.",
+      "proj-tags": ["Android", "Web"],
+      "proj-img": "logos/fdash.png"
+    },
+    {
+      "proj-title": "Anokha (Techfest of Amrita University)",
+      "proj-desc": "Developed an elegant and secure android app for the techfest using JWT that facilitates registration of events, workshops with 10k+ Downloads, and 4.2 Stars in Play Store.",
+      "proj-tags": ["Android"],
+      "proj-img": "logos/anokha.png"
+    },
+    {
+      "proj-title": "Gitcardjs (NPM Package)",
+      "proj-desc": "Template cards to showcase GitHub proficiency on your personal blogs and websites.",
+      "proj-tags": ["Web", "NPM"],
+      "proj-img": "logos/gitcard.png"
+    }
+  ]
 }
