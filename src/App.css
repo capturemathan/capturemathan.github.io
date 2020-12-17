@@ -83,47 +83,27 @@
   font-weight: bolder;
 }
 
-.skill-bars {
-  list-style: none;
+.motto {
+  margin-bottom: 5%;
 }
-.skill-bars li {
-  height: 0.3rem;
-  background: black;
-  margin: 4rem;
-  position: relative;
-}
-.skill-bars li strong {
-  position: absolute;
-  left: 0;
-  top: -2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-family: Poppins;
+
+.skill-icon {
+  font-size: 3rem;
   color: black;
+  margin-right: 3%;
 }
-.skill-bars li .progress span {
-  position: absolute;
-  right: 0;
-  top: -2.3rem;
-  display: block;
-  font-family: Poppins;
-  font-size: 0.8rem;
-  color: white;
-  line-height: 1;
-  background: #4e4187;
-  padding: 0.6rem 0.6rem;
-  border-radius: 3px;
+
+.skill-name {
+  color: #4e4187;
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: 1.1rem;
 }
-.skill-bars li .progress span::after {
-  position: absolute;
-  left: 50%;
-  bottom: -5px;
-  margin-left: -5px;
-  border-right: 5px solid transparent;
-  border-left: 5px solid transparent;
-  border-top: 5px solid #4e4187;
-  content: "";
+
+.skill-icon:hover {
+  color: #3083dc;
 }
+
 /* PROFILE PAGE ENDS*/
 
 /* PROJECT PAGE */

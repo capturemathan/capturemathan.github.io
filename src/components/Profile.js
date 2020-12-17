@@ -1,5 +1,6 @@
 import React from "react";
 import WOW from "wowjs";
+import ReactTooltip from "react-tooltip";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -48,7 +49,7 @@ class Profile extends React.Component {
               <img src="/images/skills.png" alt="skills-img"></img>
             </div>
             <div className="column is-6">
-              <form>
+              <form className="motto">
                 <fieldset disabled>
                   <div className="field">
                     <label className="label">Motto</label>
@@ -62,32 +63,106 @@ class Profile extends React.Component {
                   </div>
                 </fieldset>
               </form>
-              <ul class="skill-bars">
-                <li>
-                  <div class="progress">
-                    <span>Program</span>
-                  </div>
-                  <strong>Python, C/C++, Java</strong>
-                </li>
-                <li>
-                  <div class="progress">
-                    <span>Web</span>
-                  </div>
-                  <strong>HTML, CSS, JS, PHP, MERN</strong>
-                </li>
-                <li>
-                  <div class="progress">
-                    <span>DB & OS</span>
-                  </div>
-                  <strong>SQL, Linux</strong>
-                </li>
-                <li>
-                  <div class="progress">
-                    <span>Others</span>
-                  </div>
-                  <strong>Flask</strong>
-                </li>
-              </ul>
+              <div className="columns is-vcentered">
+                <div className="column is-3 is-offset-1 skill-name has-text-centered">
+                  Programming
+                </div>
+                <div className="column">
+                  <span data-tip="Python">
+                    <span className="skill-icon">
+                      <i class="fab fa-python"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                  <span data-tip="Java">
+                    <span className="skill-icon">
+                      <i class="fab fa-java"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                </div>
+              </div>
+              <div className="columns is-vcentered">
+                <div className="column is-3 is-offset-1 skill-name has-text-centered">
+                  Web
+                </div>
+                <div className="column">
+                  <span data-tip="HTML">
+                    <span className="skill-icon">
+                      <i class="fab fa-html5"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                  <span data-tip="CSS">
+                    <span className="skill-icon">
+                      <i class="fab fa-css3"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                  <span data-tip="Javascript">
+                    <span className="skill-icon">
+                      <i class="fab fa-js"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                  <span data-tip="React JS">
+                    <span className="skill-icon">
+                      <i class="fab fa-react"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                  <span data-tip="Node JS">
+                    <span className="skill-icon">
+                      <i class="fab fa-node"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                </div>
+              </div>
+              <div className="columns is-vcentered">
+                <div className="column is-3 is-offset-1 skill-name has-text-centered">
+                  DB & OS
+                </div>
+                <div className="column">
+                  <span data-tip="SQL">
+                    <span className="skill-icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                  <span data-tip="MongoDB">
+                    <span className="skill-icon">
+                      <i class="fab fa-envira"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                  <span data-tip="Linux">
+                    <span className="skill-icon">
+                      <i class="fab fa-linux"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                </div>
+              </div>
+              <div className="columns is-vcentered">
+                <div className="column is-3 is-offset-1 skill-name has-text-centered">
+                  Others
+                </div>
+                <div className="column">
+                  <span data-tip="Android">
+                    <span className="skill-icon">
+                      <i class="fab fa-android"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                  <span data-tip="Flask">
+                    <span className="skill-icon">
+                      <i class="far fa-file-code"></i>
+                    </span>
+                  </span>
+                  <ReactTooltip />
+                </div>
+              </div>
             </div>
           </div>
         </div>
