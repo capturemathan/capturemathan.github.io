@@ -33,10 +33,13 @@
   font-weight: bold;
 }
 
-.input,
-.textarea {
+.message-body {
   font-family: Quicksand;
   font-weight: bolder;
+}
+
+.social-icon-div {
+  margin-top: 4%;
 }
 
 .socialicon {
@@ -168,3 +171,7 @@
   font-weight: bold;
 }
 /* PROJECT PAGE ENDS*/
+
+.wow {
+  visibility: hidden;
+}

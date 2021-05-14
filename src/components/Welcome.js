@@ -11,7 +11,7 @@ class Welcome extends React.Component {
       <section className="hero is-fullheight" id="intro">
         <div className="hero-body">
           <div className="columns is-vcentered">
-            <div className="column is-6">
+            <div className="column is-6 left-welcome">
               <img src="/images/aboutme.png" alt="portfolio-img"></img>
               <div
                 className="buttons is-centered wow animate__animated animate__fadeInDown"
@@ -37,27 +37,23 @@ class Welcome extends React.Component {
                 <fieldset disabled>
                   <div className="field">
                     <label className="label">Glimpses</label>
-                    <div class="control">
-                      <textarea class="textarea" readonly>
+                    <article class="message is-dark">
+                      <div class="message-body">
                         A passionate individual who entered the arena of
                         Computer Science by waving at Hello World programs and
                         still survives with the help of strong Technical
                         skillsets in Full Stack Web and Mobile Development
-                      </textarea>
-                    </div>
+                      </div>
+                    </article>
                   </div>
                   <div className="field">
                     <label className="label">Position</label>
-                    <div className="control">
-                      <input
-                        className="input"
-                        type="text"
-                        value="SDE Intern at Flipkart"
-                      />
-                    </div>
+                    <article class="message is-dark">
+                      <div class="message-body">SDE Intern at Flipkart</div>
+                    </article>
                   </div>
-                  <div className="field">
-                    <label className="label">Connect Me</label>
+                  <div className="field social-icon-div">
+                    {/* <label className="label">Social</label> */}
                     <SocialIcon
                       className="socialicon"
                       url="mailto:capturesmk@gmail.com"
