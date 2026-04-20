@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# agent
+.agent/
+
+# logs
+*.log
+
+# ide
+.vscode/
+.idea/
